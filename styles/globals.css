@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --text-color: rgb(220 38 38);
+    --fill-color: rgb(63, 34, 34);
+    --fill-color-indicator: rgb(17, 251, 255);
+  }
+  .theme-dark {
+    --text-color: rgb(255, 255, 255);
+    --fill-color: rgb(0, 0, 0);
+    --fill-color-indicator: rgb(0, 255, 166);
+  }
+  .theme-purple {
+    --text-color: rgb(255, 53, 53);
+    --fill-color: rgb(39, 11, 218);
+    --fill-color-indicator: rgb(55, 25, 124);
+  } 
+  .theme-pink {
+    --text-color: rgb(255, 53, 53);
+    --fill-color: rgb(255, 0, 187);
+    --fill-color-indicator: rgb(55, 25, 124);
+  } 
+}
